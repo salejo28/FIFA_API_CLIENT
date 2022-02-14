@@ -14,3 +14,65 @@ a {
 * {
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.content_loader {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Component */
+.container_header {
+  width: 100%;
+  height: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 30px;
+}
+
+.content_header_club,
+.content_header_name {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.content_input {
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  height: 40px !important;
+}
+
+.input {
+  width: 100%;
+}
