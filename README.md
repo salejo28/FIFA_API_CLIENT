@@ -3,7 +3,7 @@
 ## Starting
 
 ```
-git clone
+git clone https://github.com/santi280403/FIFA_API_CLIENT.git
 ```
 
 ## Install dependencies
